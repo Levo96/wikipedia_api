@@ -1,0 +1,134 @@
+/*DejaVu Sans */
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  font-size: 100%;
+  overflow: hidden;
+}
+
+body {
+  background-color: dodgerblue;
+}
+
+#header {
+  width: 100%;
+  padding: 0.8em;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  background-color: white;
+
+}
+
+#logo{
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  font-family: 'IM Fell French Canon SC', serif;
+}
+
+#logo:hover{
+  color: dodgerblue;
+}
+
+#header_title {
+  text-align: center;
+  font-family:'IM Fell French Canon SC', serif;
+  margin-left: -200px;
+  margin-right: 50px;
+
+}
+
+#header_title:hover, #header_title:focus {
+  cursor: pointer;
+}
+
+#search_bar {
+  width: 130px;
+  padding: 10px 15px 10px 15px;
+  border: 2px solid black;
+  border-radius: 10px;
+  transition: width 0.4s ease-in-out;
+  margin-right: 5px;
+  font-size: 16px;
+}
+
+#search_bar:focus {
+  width: 30%;
+  border: 3px solid black;
+}
+
+#random_wiki {
+    padding: 10px 20px 10px 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: white;
+    font-size: 16px;
+    color: black;
+}
+
+#random_wiki:hover, #random_wiki:focus {
+  cursor: pointer;
+}
+
+#items_container{
+  max-width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction:column;
+  justify-content: space-between;
+}
+
+.items {
+  height: 10%;
+  padding: 15px 10px;
+  background-color: white;
+  border: 1px solid black;
+  box-shadow: 3px 3px 3px black;
+  margin: 6px 0;
+}
+
+.items:hover {
+  box-shadow: 3px 3px 4px 3px black;
+}
+
+.item_links {
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+}
+
+.item_links:hover{
+  color:dodgerblue;
+}
+
+.items p {
+  margin: 5px 0;
+}
+
+.items p:hover {
+  cursor: pointer;
+}
+
+#search_button {
+  padding: 10px 20px 10px 20px;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: white;
+  font-size: 16px;
+  color: black;
+  margin-right: 15px;
+  margin-left: 5px;
+}
+
+#search_butto:hover {
+  cursor: pointer;
+}
