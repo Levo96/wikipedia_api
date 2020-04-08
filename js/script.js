@@ -62,7 +62,7 @@ function urlLoader(){
   let params = {
       action: "opensearch",
       search: "",
-      limit: 3,
+      limit: 10,
       namespace: 0,
       format: "json"
     };
