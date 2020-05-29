@@ -103,6 +103,7 @@ body {
   text-decoration: none;
   color: black;
   display: inline-block;
+  border-bottom: 1px solid black;
 }
 
 .item_links:hover{
